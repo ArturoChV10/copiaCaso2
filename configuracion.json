@@ -1,0 +1,89 @@
+{
+    "hora" : 60,
+    "cantidadCamiones" : 8,
+    "Full" :
+    {
+        "name" : "Full",
+        "peso" : 28,
+        "largo" : 191,
+        "ancho" : 137,
+        "alto" : 30
+    },
+    "Twin" :
+    {
+        "name" : "Twin",
+        "peso" : 16,
+        "largo" : 191,
+        "ancho" : 99,
+        "alto" : 30
+    },
+    "Queen" :
+    {
+        "name" : "Queen",
+        "peso" : 41,
+        "largo" : 191,
+        "ancho" : 203,
+        "alto" : 30
+    },
+    "King" :
+    {
+        "name" : "King",
+        "peso" : 54,
+        "largo" : 203,
+        "ancho" : 193,
+        "alto" : 30
+    },
+    "ruta1" :
+    {
+        "name" : "ruta1",
+        "velocidad" : "50km/h",
+        "distancia" : 115,
+        "tiempo" : 115
+    },
+    "ruta2" :
+    {
+        "name" : "ruta2",
+        "velocidad" : "50km/h",
+        "distancia" : 13,
+        "tiempo" : 15
+    },
+    "ruta3" :
+    {
+        "name" : "ruta3",
+        "velocidad" : "50km/h",
+        "distancia" : 16,
+        "tiempo" : 20
+    },
+    "ruta4" :
+    {
+        "name" : "ruta4",
+        "velocidad" : "50km/h",
+        "distancia" : 39,
+        "tiempo" : 45
+    },
+    "camion" : 
+    {
+        "capacidad" : 1000,
+        "longitud" : 12,
+        "altura" : 4,
+        "ancho" : 2.5
+    },
+    "bodega" :
+    {
+        "Twin" : 10,
+        "Full" : 8,
+        "Queen" : 20,
+        "King" : 10,
+        "tarimaSize" : 100,
+        "refillTime" : 60
+    },
+    "pedidos" : 
+    {
+        "minPedidos" : 5,
+        "maxPedidos" : 20,
+        "tiempoEntreGeneracion" : 120,
+        "minColchonesPorPedido" : 10,
+        "maxColchonesPorPedido" : 100,
+        "tiempoEntreEnvioDePedidos" : 10
+    }
+}
